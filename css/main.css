@@ -47,3 +47,22 @@ header .header-icons-container .header-icons-container__icons {
     color: white;
     font-size: 3rem;
 }
+nav .nav-logo-container img {
+    width: 200px;
+    margin-top: 10px;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a {
+    font-size: 2rem;
+    border-bottom: black solid 2px;
+}
