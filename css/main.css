@@ -19,6 +19,11 @@ a {
     color: black;
 }
 
+:root {
+    --main-color: #47cfac;
+    --main-font: 'Inconsolata', monospace;
+}
+
 /* -----------------HEADER STYLES---------------- */
 
 header {
@@ -31,7 +36,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #47cfac;
+    background-color: var(--main-color);
 }
 header .header-icons-container .header-icons-container__icons {
     width: 300px;
@@ -64,5 +69,45 @@ nav .profile-link {
 }
 nav .profile-link a {
     font-size: 2rem;
+    font-family: var(--main-font);
+    font-weight: bold;
     border-bottom: black solid 2px;
 }
+
+/* ----------------HOME STYLES--------------------- */
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.home-container {
+    width: 50vw;
+    height: 55vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-container__title {
+    font-size: 4.5rem;
+    color: white;
+    padding: 10%;
+    font-family: var(--main-font);
+    letter-spacing: 10px;
+}
+.home-container__button {
+    background-color: var(--main-color);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 1%;
+    border: solid 1px white;
+}
+
