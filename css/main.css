@@ -43,3 +43,7 @@ header .header-icons-container .header-icons-container__icons {
     justify-self: end;
     margin-right: 50px;
 }
+.header-icons-container__icons span {
+    color: white;
+    font-size: 3rem;
+}
