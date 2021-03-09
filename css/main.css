@@ -265,4 +265,28 @@ footer p {
     font-weight: bold;
 }
 
+/* ----------------PROFILE STYLES--------------------- */
 
+.profile {
+    width: 100%;
+    background-color: #e6e9ed;
+}
+.profile-main {
+    display:flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 8%;
+}
+.profile-main__content {
+    padding: 2%;
+    margin-left: 15px;
+}
+.profile-main__content h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.profile-main__content p {
+    font-size: 2rem;
+    font-weight: bold;
+}
