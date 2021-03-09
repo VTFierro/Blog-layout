@@ -124,7 +124,7 @@ nav .profile-link a {
     grid-template-rows: 2fr;
 }
 .blogs-main-new h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 1%;
     margin: 10px 0;
 }
@@ -141,6 +141,7 @@ nav .profile-link a {
 }
 .blogs-news-info-container h2 {
     font-size: 2.5rem;
+    font-weight: 900;
     padding: 5% 0;
 }
 .blogs-news-info-container p {
@@ -154,6 +155,7 @@ nav .profile-link a {
 .blogs-post-container h3 {
     border-bottom: 1px solid #CDD2DA;
     padding-bottom:  20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .blogs-button {
@@ -161,9 +163,42 @@ nav .profile-link a {
     padding: 10px 15px;
     font-size: 1.5rem;
     font-weight: bold;
+    transition: all .5s;
 }
 .blogs-button:hover {
     background-color: var(--main-color);
     color: white;
     border: 1px solid white;
+}
+.blogs-post-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    height: 550px;
+    margin-bottom: 50px;
+    margin-left: 22px;
+}
+.blogs-post-container .post-container p {
+    margin-bottom: 35px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.blogs-post-container .post-container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* ----------------FOOTER STYLES--------------------- */
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #22272d;
+    border-top: 35px solid var(--main-color);
+    text-align: center;
+}
+footer p {
+    color: white;
+    margin-top: 19px;
+    font-size: 1.5rem;
 }
