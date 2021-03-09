@@ -290,3 +290,34 @@ footer p {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.projects-main__title h3 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 2% 2% 3% 2%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    border-bottom: 1px solid #cdd2da;
+}
+.projects-main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 20px auto 30px;
+    justify-items: start;
+}
+.projects-main-grid__content {
+    margin-right: 30px;
+    margin-top: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 25px;
+}
+.projects-main-grid__content h4 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+
