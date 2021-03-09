@@ -208,3 +208,29 @@ footer p {
     margin-top: 19px;
     font-size: 1.5rem;
 }
+
+/* ----------------BLOG STYLES--------------------- */
+
+.blogpost-img-container {
+    padding-bottom: 40px;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    border-bottom: solid 1px #CDD2DA;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.blogpost-main-container h1 {
+    margin: 20px 0;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.blogpost-main-container p {
+    font-size: 2rem;
+}
