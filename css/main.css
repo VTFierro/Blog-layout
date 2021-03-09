@@ -234,3 +234,35 @@ footer p {
 .blogpost-main-container p {
     font-size: 2rem;
 }
+.contact-main-container {
+    background-color: #e6e9ed;
+    padding: 5% 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+.contact-container figure {
+    width:100px;
+    height: 100px;
+}
+.contact-container img {
+    width: 100%;
+}
+.contact-container a {
+    border-bottom: solid 1px black;
+    font-size: 2rem;
+
+}
+.contact-container p {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.contact-container-texts {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
